@@ -1,0 +1,1622 @@
+[
+  {
+    "file": "Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CITATION.cff",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".pre-commit-config.yaml",
+    "dependencies": [
+      "sorting"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "COMMUNITY_PROVIDERS.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [
+      "providers",
+      "inference",
+      "high"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "langextract",
+      "textwrap"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "autoformat.sh",
+    "dependencies": [
+      "sorting"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".pylintrc",
+    "dependencies": [
+      "fallback",
+      "order",
+      "in"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tox.ini",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/prompting.py",
+    "dependencies": [
+      "pathlib",
+      "json",
+      "__future__",
+      "override",
+      "data",
+      "yaml",
+      "pydantic",
+      "typing_extensions",
+      "exceptions",
+      "langextract.core",
+      "annotations",
+      "dataclasses",
+      "format_handler"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/annotation.py",
+    "dependencies": [
+      "collections.abc",
+      "data",
+      "time",
+      "resolver",
+      "progress",
+      "typing",
+      "logging",
+      "format_handler",
+      "prompting",
+      "collections",
+      "__future__",
+      "langextract",
+      "langextract.core",
+      "annotations",
+      "base_model",
+      "Iterable",
+      "DefaultDict",
+      "exceptions",
+      "absl",
+      "chunking",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/factory.py",
+    "dependencies": [
+      "providers",
+      "__future__",
+      "langextract",
+      "warnings",
+      "exceptions",
+      "os",
+      "langextract.core",
+      "router",
+      "typing",
+      "annotations",
+      "base_model",
+      "dataclasses",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/__init__.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "langextract.",
+      "langextract",
+      "importlib",
+      "extract",
+      "visualization",
+      "annotations",
+      "typing",
+      "sys",
+      "langextract.extraction"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/data.py",
+    "dependencies": [
+      "from",
+      "annotations",
+      "langextract.core.data",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/inference.py",
+    "dependencies": [
+      "__future__",
+      "inference",
+      "annotations",
+      "langextract._compat",
+      "from"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/resolver.py",
+    "dependencies": [
+      "collections.abc",
+      "itertools",
+      "data",
+      "typing",
+      "logging",
+      "format_handler",
+      "collections",
+      "__future__",
+      "Iterator",
+      "langextract.core",
+      "abc",
+      "annotations",
+      "difflib",
+      "Final",
+      "schema",
+      "exceptions",
+      "absl",
+      "operator",
+      "functools",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/progress.py",
+    "dependencies": [
+      "urllib.parse",
+      "Any",
+      "__future__",
+      "tqdm",
+      "typing",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/data_lib.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "data",
+      "langextract.core",
+      "enum",
+      "annotations",
+      "typing",
+      "tokenizer",
+      "dataclasses",
+      "numbers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/extraction.py",
+    "dependencies": [
+      "factory",
+      "collections.abc",
+      "data",
+      "resolver",
+      "typing",
+      "annotation",
+      "format_handler",
+      "prompting",
+      "__future__",
+      "langextract",
+      "langextract.core",
+      "annotations",
+      "debug_utils",
+      "base_model",
+      "prompt_validation",
+      "Iterable",
+      "warnings",
+      "io",
+      "cast",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/prompt_validation.py",
+    "dependencies": [
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "data",
+      "langextract",
+      "langextract.core",
+      "absl",
+      "resolver",
+      "enum",
+      "annotations",
+      "logging",
+      "tokenizer",
+      "dataclasses",
+      "copy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/schema.py",
+    "dependencies": [
+      "__future__",
+      "warnings",
+      "annotations",
+      "langextract._compat",
+      "from",
+      "schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/registry.py",
+    "dependencies": [
+      "__future__",
+      "langextract",
+      "warnings",
+      "plugins",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/visualization.py",
+    "dependencies": [
+      "pathlib",
+      "html",
+      "json",
+      "__future__",
+      "itertools",
+      "data",
+      "langextract",
+      "textwrap",
+      "HTML",
+      "IPython",
+      "io",
+      "langextract.core",
+      "enum",
+      "annotations",
+      "IPython.display",
+      "dataclasses",
+      "get_ipython"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/exceptions.py",
+    "dependencies": [
+      "__future__",
+      "exceptions",
+      "langextract.core",
+      "annotations",
+      "directly"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/chunking.py",
+    "dependencies": [
+      "more_itertools",
+      "Iterable",
+      "collections.abc",
+      "data",
+      "exceptions",
+      "langextract.core",
+      "absl",
+      "logging",
+      "re",
+      "tokenizer",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/io.py",
+    "dependencies": [
+      "data",
+      "progress",
+      "typing",
+      "__future__",
+      "langextract",
+      "os",
+      "langextract.core",
+      "urllib",
+      "abc",
+      "annotations",
+      "pandas",
+      "dataclasses",
+      "pathlib",
+      "parse",
+      "data_lib",
+      "requests",
+      "json",
+      "Any",
+      "exceptions",
+      "ipaddress"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/py.typed",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/tokenizer.py",
+    "dependencies": [
+      "langextract.core.tokenizer",
+      "from",
+      "annotations",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/plugins.py",
+    "dependencies": [
+      "__future__",
+      "metadata",
+      "specs.",
+      "langextract.core",
+      "importlib",
+      "provider",
+      "absl",
+      "annotations",
+      "logging",
+      "base_model",
+      "functools",
+      "specifications."
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/_compat/__init__.py",
+    "dependencies": [
+      "annotations",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/_compat/inference.py",
+    "dependencies": [
+      "enum",
+      "annotations",
+      "warnings",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/_compat/schema.py",
+    "dependencies": [
+      "annotations",
+      "warnings",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/_compat/registry.py",
+    "dependencies": [
+      "__future__",
+      "langextract",
+      "warnings",
+      "plugins",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/_compat/exceptions.py",
+    "dependencies": [
+      "__future__",
+      "warnings",
+      "exceptions",
+      "langextract.core",
+      "annotations",
+      "from"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/_compat/README.md",
+    "dependencies": [
+      "langextract.providers.ollama",
+      "ConstraintType",
+      "OpenAILanguageModel",
+      "Constraint",
+      "EXTRACTIONS_KEY",
+      "langextract.plugins",
+      "langextract.registry",
+      "langextract.schema",
+      "langextract.inference",
+      "langextract.exceptions",
+      "langextract.providers.router",
+      "langextract.providers.registry",
+      "GeminiSchema",
+      "langextract.providers.openai",
+      "BaseLanguageModel",
+      "langextract.core.types",
+      "langextract.providers.gemini",
+      "InferenceOutputError",
+      "ScoredOutput",
+      "BaseSchema",
+      "OllamaLanguageModel",
+      "langextract.providers.schemas.gemini",
+      "langextract.core.exceptions",
+      "GeminiLanguageModel",
+      "langextract.core.base_model",
+      "langextract.core.schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/format_handler.py",
+    "dependencies": [
+      "__future__",
+      "Mapping",
+      "data",
+      "yaml",
+      "warnings",
+      "exceptions",
+      "langextract.core",
+      "typing",
+      "annotations",
+      "re",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/__init__.py",
+    "dependencies": [
+      "annotations",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/data.py",
+    "dependencies": [
+      "__future__",
+      "dataclasses",
+      "uuid",
+      "types",
+      "langextract.core",
+      "enum",
+      "annotations",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/base_model.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "collections.abc",
+      "Iterator",
+      "yaml",
+      "types",
+      "langextract.core",
+      "typing",
+      "abc",
+      "annotations",
+      "json",
+      "schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/schema.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "data",
+      "types",
+      "langextract.core",
+      "typing",
+      "abc",
+      "annotations",
+      "format_handler"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/debug_utils.py",
+    "dependencies": [
+      "Any",
+      "inspect",
+      "reprlib",
+      "__future__",
+      "time",
+      "absl",
+      "typing",
+      "annotations",
+      "logging",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/exceptions.py",
+    "dependencies": [
+      "annotations",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/types.py",
+    "dependencies": [
+      "__future__",
+      "textwrap",
+      "enum",
+      "annotations",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/core/tokenizer.py",
+    "dependencies": [
+      "regex",
+      "collections.abc",
+      "Sequence",
+      "unicodedata",
+      "exceptions",
+      "debug_utils",
+      "langextract.core",
+      "enum",
+      "abc",
+      "functools",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/__init__.py",
+    "dependencies": [
+      "metadata",
+      "os",
+      "importlib",
+      "router",
+      "absl",
+      "logging",
+      "builtin_registry",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/README.md",
+    "dependencies": [
+      "myprovider",
+      "factory",
+      "langextract_myprovider.schema",
+      "GeminiLanguageModel",
+      "langextract",
+      "os",
+      "if",
+      "schema",
+      "langextract.providers",
+      "MyProviderSchema",
+      "langextract.providers.gemini"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/patterns.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/builtin_registry.py",
+    "dependencies": [
+      "patterns",
+      "TypedDict",
+      "typing",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/ollama.py",
+    "dependencies": [
+      "urllib.parse",
+      "langextract.providers.ollama",
+      "data",
+      "typing",
+      "langextract.providers",
+      "format_handler",
+      "ExampleData",
+      "__future__",
+      "langextract",
+      "types",
+      "langextract.core",
+      "annotations",
+      "dataclasses",
+      "patterns",
+      "langextract.data",
+      "OllamaLanguageModel",
+      "base_model",
+      "requests",
+      "schema",
+      "urljoin",
+      "Any",
+      "urlparse",
+      "warnings",
+      "exceptions",
+      "router",
+      "OLLAMA_FORMAT_HANDLER"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/gemini_batch.py",
+    "dependencies": [
+      "collections.abc",
+      "google.cloud",
+      "time",
+      "enum",
+      "typing",
+      "logging",
+      "__future__",
+      "Iterator",
+      "hashlib",
+      "genai",
+      "os",
+      "langextract.core",
+      "annotations",
+      "re",
+      "google.api_core",
+      "dataclasses",
+      "concurrent.futures",
+      "json",
+      "Any",
+      "uuid",
+      "storage",
+      "exceptions",
+      "tempfile",
+      "absl",
+      "google"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/gemini.py",
+    "dependencies": [
+      "data",
+      "gemini_batch",
+      "typing",
+      "logging",
+      "langextract.providers",
+      "__future__",
+      "genai",
+      "types",
+      "schemas",
+      "langextract.core",
+      "annotations",
+      "dataclasses",
+      "concurrent.futures",
+      "patterns",
+      "base_model",
+      "schema",
+      "Any",
+      "exceptions",
+      "absl",
+      "router",
+      "google"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/openai.py",
+    "dependencies": [
+      "Any",
+      "patterns",
+      "__future__",
+      "data",
+      "exceptions",
+      "types",
+      "langextract.core",
+      "router",
+      "typing",
+      "base_model",
+      "annotations",
+      "openai",
+      "dataclasses",
+      "langextract.providers",
+      "concurrent.futures",
+      "schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/router.py",
+    "dependencies": [
+      "__future__",
+      "exceptions",
+      "langextract.core",
+      "importlib",
+      "absl",
+      "typing",
+      "annotations",
+      "logging",
+      "base_model",
+      "re",
+      "path.",
+      "functools",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/schemas/__init__.py",
+    "dependencies": [
+      "gemini",
+      "annotations",
+      "langextract.providers.schemas",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "langextract/providers/schemas/gemini.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "data",
+      "warnings",
+      "langextract.core",
+      "typing",
+      "annotations",
+      "dataclasses",
+      "format_handler",
+      "schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/batch_api_example.md",
+    "dependencies": [
+      "requests",
+      "langextract",
+      "textwrap",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/japanese_extraction.md",
+    "dependencies": [
+      "langextract.core",
+      "langextract",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/medication_examples.md",
+    "dependencies": [
+      "langextract"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/longer_text_example.md",
+    "dependencies": [
+      "langextract",
+      "textwrap",
+      "Counter",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/_static/logo.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/notebooks/romeo_juliet_extraction.ipynb",
+    "dependencies": [
+      "os",
+      "langextract",
+      "textwrap",
+      "getpass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/custom_provider_plugin/pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/custom_provider_plugin/README.md",
+    "dependencies": [
+      "langextract"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/custom_provider_plugin/test_example_provider.py",
+    "dependencies": [
+      "is",
+      "langextract",
+      "os",
+      "dotenv",
+      "langextract_provider_example",
+      "CustomGeminiProvider"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/custom_provider_plugin/langextract_provider_example/provider.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "genai",
+      "langextract",
+      "typing",
+      "annotations",
+      "langextract_provider_example",
+      "dataclasses",
+      "google",
+      "schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/custom_provider_plugin/langextract_provider_example/__init__.py",
+    "dependencies": [
+      "langextract_provider_example.provider",
+      "CustomGeminiProvider"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/custom_provider_plugin/langextract_provider_example/schema.py",
+    "dependencies": [
+      "Any",
+      "__future__",
+      "langextract",
+      "typing",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ollama/Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ollama/docker-compose.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ollama/.dockerignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ollama/README.md",
+    "dependencies": [
+      "langextract"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ollama/demo_ollama.py",
+    "dependencies": [
+      "ollama",
+      "traceback",
+      "pathlib",
+      "langextract",
+      "textwrap",
+      "time",
+      "os",
+      "urllib.request",
+      "dotenv",
+      "argparse",
+      "Path",
+      "langextract.providers",
+      "urllib.error",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/create_provider_plugin.py",
+    "dependencies": [
+      "factory",
+      "pathlib",
+      "subprocess",
+      "data",
+      "langextract",
+      "textwrap",
+      "os",
+      "registry",
+      "re",
+      "argparse",
+      "Path",
+      "schema",
+      "langextract.providers",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/validate_community_providers.py",
+    "dependencies": [
+      "Dict",
+      "pathlib",
+      "os",
+      "typing",
+      "re",
+      "Path",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/benchmark.py",
+    "dependencies": [
+      "data",
+      "time",
+      "typing",
+      "Path",
+      "core",
+      "langextract",
+      "os",
+      "dotenv",
+      "urllib.error",
+      "pathlib",
+      "benchmarks",
+      "plotting",
+      "utils",
+      "config",
+      "json",
+      "Any",
+      "visualize",
+      "langextract.io",
+      "datetime",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/utils.py",
+    "dependencies": [
+      "Any",
+      "subprocess",
+      "benchmarks",
+      "langextract.core",
+      "urllib.request",
+      "typing",
+      "config",
+      "tokenizer",
+      "urllib.error"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/plotting.py",
+    "dependencies": [
+      "numpy",
+      "Any",
+      "matplotlib",
+      "pathlib",
+      "benchmarks",
+      "datetime",
+      "typing",
+      "matplotlib.pyplot",
+      "Path",
+      "config",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/config.py",
+    "dependencies": [
+      "pathlib",
+      "enum",
+      "Path",
+      "dataclass",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/tokenizer_test.py",
+    "dependencies": [
+      "absltest",
+      "absl.testing",
+      "textwrap",
+      "parameterized",
+      "langextract.core",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/extract_precedence_test.py",
+    "dependencies": [
+      "factory",
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "mock",
+      "langextract.core",
+      "unittest",
+      "openai",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/data_lib_test.py",
+    "dependencies": [
+      "numpy",
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "parameterized",
+      "io",
+      "langextract.core",
+      "data_lib",
+      "tokenizer",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_ollama_integration.py",
+    "dependencies": [
+      "requests",
+      "socket",
+      "pytest",
+      "langextract"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/resolver_test.py",
+    "dependencies": [
+      "absltest",
+      "Sequence",
+      "data",
+      "absl.testing",
+      "textwrap",
+      "langextract",
+      "parameterized",
+      "langextract.core",
+      "resolver",
+      "typing",
+      "chunking",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/annotation_test.py",
+    "dependencies": [
+      "gemini",
+      "data",
+      "collections.abc",
+      "mock",
+      "resolver",
+      "typing",
+      "annotation",
+      "langextract.providers",
+      "prompting",
+      "inspect",
+      "absltest",
+      "langextract",
+      "Type",
+      "types",
+      "langextract.core",
+      "dataclasses",
+      "Sequence",
+      "absl.testing",
+      "textwrap",
+      "exceptions",
+      "parameterized",
+      "unittest",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/factory_test.py",
+    "dependencies": [
+      "factory",
+      "absltest",
+      "absl.testing",
+      "langextract",
+      "exceptions",
+      "os",
+      "mock",
+      "types",
+      "router",
+      "base_model",
+      "langextract.core",
+      "unittest",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/prompting_test.py",
+    "dependencies": [
+      "prompting",
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "textwrap",
+      "parameterized",
+      "langextract.core",
+      "format_handler"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/format_handler_test.py",
+    "dependencies": [
+      "prompting",
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "textwrap",
+      "parameterized",
+      "langextract.core",
+      "resolver",
+      "format_handler"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/inference_test.py",
+    "dependencies": [
+      "absltest",
+      "gemini",
+      "data",
+      "absl.testing",
+      "langextract",
+      "exceptions",
+      "parameterized",
+      "mock",
+      "types",
+      "langextract.core",
+      "base_model",
+      "unittest",
+      "ollama",
+      "openai",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/registry_test.py",
+    "dependencies": [
+      "until",
+      "absltest",
+      "absl.testing",
+      "langextract",
+      "exceptions",
+      "types",
+      "langextract.core",
+      "router",
+      "base_model",
+      "and",
+      "re",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/schema_test.py",
+    "dependencies": [
+      "absltest",
+      "data",
+      "absl.testing",
+      "warnings",
+      "mock",
+      "parameterized",
+      "schemas",
+      "langextract.core",
+      "langextract.providers",
+      "base_model",
+      "unittest",
+      "schema",
+      "format_handler"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/provider_plugin_test.py",
+    "dependencies": [
+      "mock",
+      "Path",
+      "USED_BY_EXTRACT",
+      "absltest",
+      "langextract",
+      "os",
+      "types",
+      "importlib",
+      "langextract.core",
+      "pathlib",
+      "subprocess",
+      "error",
+      "base_model",
+      "sys",
+      "pytest",
+      "errors",
+      "absl.testing",
+      "metadata",
+      "textwrap",
+      "uuid",
+      "tempfile",
+      "unittest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/extract_schema_integration_test.py",
+    "dependencies": [
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "warnings",
+      "mock",
+      "langextract.core",
+      "unittest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/factory_schema_test.py",
+    "dependencies": [
+      "factory",
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "mock",
+      "langextract.core",
+      "base_model",
+      "unittest",
+      "schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/provider_schema_test.py",
+    "dependencies": [
+      "factory",
+      "absltest",
+      "gemini",
+      "data",
+      "absl.testing",
+      "langextract",
+      "exceptions",
+      "mock",
+      "schemas",
+      "langextract.core",
+      "unittest",
+      "ollama",
+      "openai",
+      "schema",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_gemini_batch_api.py",
+    "dependencies": [
+      "absltest",
+      "gemini",
+      "genai",
+      "absl.testing",
+      "gemini_batch",
+      "mock",
+      "io",
+      "parameterized",
+      "exceptions",
+      "schemas",
+      "google.api_core",
+      "langextract.providers",
+      "unittest",
+      "json",
+      "google"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/.pylintrc",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/chunking_test.py",
+    "dependencies": [
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "textwrap",
+      "mock",
+      "parameterized",
+      "langextract.core",
+      "chunking",
+      "tokenizer",
+      "unittest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/visualization_test.py",
+    "dependencies": [
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "mock",
+      "langextract.core",
+      "visualization",
+      "unittest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/progress_test.py",
+    "dependencies": [
+      "langextract",
+      "tqdm",
+      "mock",
+      "progress",
+      "unittest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_kwargs_passthrough.py",
+    "dependencies": [
+      "absl.testing",
+      "warnings",
+      "mock",
+      "parameterized",
+      "unittest",
+      "ollama",
+      "openai",
+      "langextract.providers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/init_test.py",
+    "dependencies": [
+      "prompting",
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "textwrap",
+      "warnings",
+      "mock",
+      "parameterized",
+      "types",
+      "schemas",
+      "langextract.core",
+      "base_model",
+      "langextract.providers",
+      "unittest",
+      "schema",
+      "format_handler"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/prompt_validation_test.py",
+    "dependencies": [
+      "absltest",
+      "data",
+      "absl.testing",
+      "langextract",
+      "extraction",
+      "parameterized",
+      "langextract.core",
+      "prompt_validation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_live_api.py",
+    "dependencies": [
+      "data",
+      "gemini_batch",
+      "time",
+      "mock",
+      "google.genai.errors",
+      "typing",
+      "langextract.providers",
+      "langextract",
+      "os",
+      "langextract.core",
+      "dotenv",
+      "re",
+      "google.auth",
+      "google.auth.exceptions",
+      "pytest",
+      "json",
+      "Any",
+      "uuid",
+      "textwrap",
+      "unittest",
+      "functools",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
